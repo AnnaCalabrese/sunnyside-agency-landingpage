@@ -104,7 +104,17 @@ header h1{
     text-align: center;
     margin-top:6em;
 }
-
+.navbar-toggler {
+  border: 0;
+}
+.nav-h1 {
+  margin-top: 100px;
+}
+@media (max-width: 600px) {
+  .nav-h1 {
+    margin-top: 50px;
+  }
+}
 /******************** SERVICES SECTION *******************/
 
 .grid-container{
